@@ -1,0 +1,124 @@
+/*
+Theme Name: felipemarcos
+Theme URI: http://www.softbisti.com.br/temas/monteSiao
+Author: Felipe Marcos
+Author URI: http://www.softbisti.com/
+Description: Tema para o website www.contabilidademontesiao.com.br
+Version: 1.0
+Tags: contabilidade, consultoria contábil, fisco, consultoria fiscal, empreendimento, investimento, acessoria
+Text Domain: contabilidade
+*/
+@import url("css/bootstrap.min.css");
+/*-> RESET */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+	text-decoration: none;
+	transition: All 0.5s;	
+}
+
+/*PROPRIEDADE DE ELEMENTOS*/
+
+html { overflow-y: scroll; }
+html { overflow: -moz-scrollbars-vertical; }
+html { overflow-x: auto; }
+
+/*
+Ajuste de alinhamento de imagem do editor: WP
+*/
+img.alignright {float:right; margin:0 0 1em 1em}
+img.alignleft {float:left; margin:0 1em 1em 0}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+a img.alignright {float:right; margin:0 0 1em 1em}
+a img.alignleft {float:left; margin:0 1em 1em 0}
+a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	min-width: 1360px;
+}
+
+h1{
+	font-size: 36px;
+}
+
+h2{
+	font-size: 28px;
+}
+
+h3{
+	font-size: 22px;
+}
+
+h4{
+	font-size: 18px;
+}
+
+h5{
+	font-size: 14px;
+}
+
+h6{
+	font-size: 12px;
+}
+
+p{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	line-height: 1.5;
+	color: #555;
+	text-align: justify;
+}
+
+strong, b{
+	font-weight: bold;	
+}
+
+italic, i, em{
+	font-style:italic;
+}
+
+a{
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #D2AE6D;
+	text-decoration: none;
+}
+
+/*a:visited{
+	color: #000;
+	text-decoration: none;
+}*/
+
+a:active{
+	color: #000;
+	text-decoration: none;
+}
+
+a:focus{
+	color: #000;
+	text-decoration: none;
+}
+
+/*CLASSES*/
+
+.clear{
+	clear: both;
+}
+
+.pageWidth{
+	width: 980px;
+	margin: 0 auto;
+}
